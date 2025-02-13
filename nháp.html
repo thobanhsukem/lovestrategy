@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Princess Disorder </title>
+    <style>
+        :root {
+            --color1: #fca4cc; /* Pink */
+            --color2: #fbe3f9; /* Light Pink */
+            --color3: #ecb9dc; /* Pale Pink */
+            --color4: #7c5cac; /* Purple */
+            --color5: #54448c; /* Deep Purple */
+            --color6: #2c2c54; /* Navy */
+        }
+
+        body {
+            margin: 0;
+            font-family: 'HP Simplified Light';
+            background-color: var(--color3);
+            color: var(--color6);
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: var(--color6);
+            color: #fbe3f9 ;
+            padding: 40px;
+			font-family: Monotype Corsiva;
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: normal;
+            text-transform: lowercase;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: var(--color5);
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+            min-height: 100vh;
+        }
+
+        .section:nth-child(odd) {
+            background-color: var(--color2);
+            color: color 6;
+        }
+
+        .section:nth-child(even) {
+            background-color: var(--color5);
+            color: var(--color2);
+        }
+
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        footer {
+            background-color: var(--color6);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 1em;
+        }
+		.banner {
+            text-align: center;
+            position: relative;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: white;
+            overflow: hidden;
+        }
+        .banner img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .banner h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .banner p {
+            font-size: 1.2em;
+        }
+        .banner button {
+            background-color: #ff7f50;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .banner button:hover {
+            background-color: #ff4500;
+        }
+    </style>
+</head>
+<body>
+    <header>
+⋆｡ °✩⋆ ˚｡ ⋆ 1000 reasons why we should be lovers ⋆ ｡˚ ⋆✩° ｡⋆
+    </header>
+    <nav>
+        <a href="introduction.html">Introduction</a>
+        <a href="#about"> Why u should date me?</a>
+        <a href="#contact">Why I wanna date you</a>
+    </nav>
+	    <section class="banner">
+        <img src="C:\Users\MYLAP.VN\Desktop\lan1009\lan banner.jpeg" alt="Banner">
+        <h1>TẬP LUYỆN CÙNG HANA GIANG ANH</h1>
+        <p>Create your own sunshine!</p>
+        <button>Xem lịch tập</button>
+    </section>
+    <section id="home" class="section">
+        <h2>Welcome to Y2K News</h2>
+        <p>Relive the vibrant aesthetics of the early 2000s with the latest news delivered in a nostalgic style.</p>
+    </section>
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>At Y2K News, we bring you a blend of modern journalism and retro aesthetics. Experience news in a unique and fun way.</p>
+    </section>
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Have questions or feedback? Reach out to us and become part of the Y2K News community!</p>
+    </section>
+    <footer>
+        &copy; Dang Thi Huong Lan. All rights reserved.
+    </footer>
+</body>
+</html>
